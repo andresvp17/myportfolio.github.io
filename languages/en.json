@@ -1,0 +1,21 @@
+{
+    "profile": {
+        "role": "Frontend Developer",
+        "description": "A passionate technology lover who everyday tries to improve himself. With knowledge about JavaScript, CSS, HTML and frameworks like NodeJS or React; trying to learn more everyday with the best attitude."
+    },
+    "hobbies": {
+        "hobby": "Listening To Music",
+        "hobbyDescription": "Music is what accompanies me everyday and moment in my life, as a rest and as a wonderful experience to disconnect a bit of the whole world."
+    },
+    "skills": {
+        "language": "Languages",
+        "spanish": "Spanish",
+        "english": "English"
+    },
+    "projects": {
+        "poke-app": "A Pokemon browser which has been implemented with various functionalities, such as saving favorites pokemons, user login and the creation of teams, all these made with React and NodeJS.",
+        "super-heroes-app": "Using the API provided by Marvel, here you will find a wide material of super heroes, comics and the stories where all the fights and the feelings happen. Application made with React.",
+        "light-music": "This is a website made using NodeJS with tools like Express and Pug with a masonry layout which is one of my favorite UI desgings for its distinguish elegance.",
+        "music-api": "An API where you can register your favorite musicians and their albums, using NodeJS and express as the main and the most important tools to develop this little API."
+    }
+}

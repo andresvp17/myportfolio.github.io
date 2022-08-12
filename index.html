@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/styles.css">
+    <title>Document</title>
+</head>
+<body class="light">
+    <header class="header__container">
+        <div class="theme-cta" id="theme">
+            <img id="theme-icon" class="theme-icon" src="/assets/sun-solid.svg" alt="Theme Iocn">
+            <p id="theme-text" class="theme-text">Light Mode</p>
+        </div>
+        <div id="flags" class="flags">
+            <div class="flags__item" data-language="es">
+                <img class="flags__img" src="/assets/es.svg" alt="Spain">
+            </div>
+            <div class="flags__item" data-language="en">
+                <img class="flags__img" src="/assets/gb.svg" alt="Spain">
+            </div>
+        </div>
+        <div id="colors-container" class="colors__container">
+            <span class="color-item" data-color="#f25757"></span>
+            <span class="color-item" data-color="#fec601"></span>
+            <span class="color-item" data-color="#006daa"></span>
+            <span class="color-item" data-color="#d496a7"></span>
+        </div>
+    </header>
+    <main class="main">
+        <section class="column column-left">
+            <article class="card card-profile">
+                <div class="card__img-container">
+                    <img src="/assets/IMG_20211231_200704_046.jpg" alt="Card Image">
+                </div>
+                <div class="card__header">
+                    <h2 class="card__title">Andrés Villasmil</h2>
+                    <p class="card__subtitle">Frontend Developer</p>
+                </div>
+                <div class="card__body">
+                    <div class="card__link">
+                        <img class="icon-size" src="/assets/envelope-solid.svg" alt="">
+                        <a class="card__link--item" target="_blank" href="mailto:villasmilandres382@gmail.com">villasmilandres382@gmail.com</a>
+                    </div>
+                    <div class="card__link">
+                        <img class="icon-size" src="/assets/github-brands.svg" alt="">
+                        <a class="card__link--item" target="_blank" href="https://github.com/andresvp17">Github Repositories</a>
+                    </div>
+                    <p class="card__description" data-section="profile" data-value="description">A passionate technology lover who everyday tries to improve himself. <br/> With knowledge about JavaScript, CSS, HTML and frameworks like NodeJS or React; trying to learn more everyday with the best attitude.</p>
+                </div>
+            </article>
+            <article class="card">
+                <div class="card__img-container">
+                    <img src="/assets/listen to music.webp" alt="Card Image">
+                </div>
+                <div class="card__header">
+                    <h2 class="card__title" data-section="hobbies" data-value="hobby">Listening To Music</h2>
+                </div>
+                <div class="card__body">
+                    <p class="card__description" data-section="hobbies" data-value="hobbyDescription">Music is what accompanies me everyday and moment in my life, as a rest and as a wonderful experience to disconnect a bit of the whole world.</p>
+                </div>
+            </article>
+        </section>
+        <section class="column column--right">
+            <article class="card">
+                <div class="skills">
+                    <h2 class="card__title">Fronted</h2>
+                    <div class="skills__item">
+                        <p class="skills__tech">HTML</p>
+                        <div class="skills__bar skills__bar--80"></div>
+                    </div>
+                    <div class="skills__item">
+                        <p class="skills__tech">CSS</p>
+                        <div class="skills__bar skills__bar--70"></div>
+                    </div>
+                    <div class="skills__item">
+                        <p class="skills__tech">JavaScript</p>
+                        <div class="skills__bar skills__bar--60"></div>
+                    </div>
+                    <div class="skills__item">
+                        <p class="skills__tech">React</p>
+                        <div class="skills__bar skills__bar--70"></div>
+                    </div>
+            </article>
+            <article class="card">
+                <div class="skills">
+                    <h2 class="card__title">Frameworks</h2>
+                    <div class="skills__item">
+                        <p class="skills__tech">Webpack</p>
+                        <div class="skills__bar skills__bar--50"></div>
+                    </div>
+                    <div class="skills__item">
+                        <p class="skills__tech">Gulp</p>
+                        <div class="skills__bar skills__bar--60"></div>
+                    </div>
+                    <div class="skills__item">
+                        <p class="skills__tech">Sass</p>
+                        <div class="skills__bar skills__bar--60"></div>
+                    </div>
+                    <div class="skills__item">
+                        <p class="skills__tech">Node</p>
+                        <div class="skills__bar skills__bar--60"></div>
+                    </div>
+                </div>
+            </article>
+            <article class="card">
+                <div class="skills">
+                    <h2 class="card__title" data-section="skills" data-value="language">Languages</h2>
+                    <div class="skills__item">
+                        <p class="skills__tech" data-section="skills" data-value="spanish">Spanish</p>
+                        <div class="skills__bar skills__bar--100"></div>
+                    </div>
+                    <div class="skills__item">
+                        <p class="skills__tech" data-section="skills" data-value="english">English</p>
+                        <div class="skills__bar skills__bar--80"></div>
+                    </div>
+                </div>
+            </article>
+            <article class="card card--project">
+                <div class="card__img-container">
+                    <img class="card__image" src="/assets/poke-app.png" alt="">
+                </div>
+                <div class="project">
+                    <div class="project__tags">
+                        <span class="project__tag react">React</span>
+                        <span class="project__tag node">NodeJS</span>
+                        <span class="project__tag react">Styled Components</span>
+                    </div>
+                    <h2 class="card__title">Poke-App</h2>
+                    <p class="project-description" data-section="projects" data-value="poke-app">A Pokemon browser which has been implemented with various functionalities, such as saving favorites pokemons, user login and the creation of teams, all these made with React and NodeJS.</p>
+                    <div class="buttons">
+                        <a href="https://poke-34j2wda0b-andresvp257-gmailcom.vercel.app/" target="_blank" class="button button--primary">Demo</a>
+                        <a href="#" class="button button--ghost">Code</a>
+                    </div>
+                </div>
+            </article>
+            <article class="card card--project">
+                <div class="card__img-container">
+                    <img class="card__image" src="/assets/super-hero-app.png" alt="">
+                </div>
+                <div class="project">
+                    <div class="project__tags">
+                        <span class="project__tag react">React</span>
+                        <span class="project__tag react">Styled Components</span>
+                    </div>
+                    <h2 class="card__title">Super-Heroes-App</h2>
+                    <p class="project-description" data-section="projects" data-value="super-heroes-app">Using the API provided by Marvel, here you will find a wide material of super heroes, comics and the stories where all the fights and the feelings happen. Application made with React</p>
+                    <div class="buttons">
+                        <a href="https://super-hero-app-andresvp257-gmailcom.vercel.app/" target="_blank" class="button button--primary">Demo</a>
+                        <a href="#" class="button button--ghost">Code</a>
+                    </div>
+                </div>
+            </article>
+            <article class="card card--project">
+                <div class="card__img-container">
+                    <img class="card__image" src="/assets/node-page.png" alt="">
+                </div>
+                <div class="project">
+                    <div class="project__tags">
+                        <span class="project__tag html">HTML</span>
+                        <span class="project__tag css">CSS</span>
+                        <span class="project__tag javascript">JavaScript</span>
+                        <span class="project__tag node">NodeJS</span>
+                    </div>
+                    <h2 class="card__title">Light Music</h2>
+                    <p class="project-description" data-section="projects" data-value="light-music">This is a website made using NodeJS with tools like Express and Pug with a masonry layout which is one of my favorite UI desgings for its distinguish elegance.</p>
+                    <div class="buttons">
+                        <a href="#" class="button button--primary">Demo</a>
+                        <a href="#" class="button button--ghost">Code</a>
+                    </div>
+                </div>
+            </article>
+            <article class="card card--project">
+                <div class="card__img-container">
+                    <img class="card__image" src="/assets/pexels-luis-gomes-546819.jpg" alt="">
+                </div>
+                <div class="project">
+                    <div class="project__tags">
+                        <span class="project__tag node">NodeJS</span>
+                        <span class="project__tag node">Express</span>
+                    </div>
+                    <h2 class="card__title">Music API</h2>
+                    <p class="project-description" data-section="projects" data-value="music-api">An API where you can register your favorite musicians and their albums, using NodeJS and Express as the main and the most important tools to develop this little API.</p>
+                    <div class="buttons">
+                        <a href="#" class="button button--primary">Demo</a>
+                        <a href="#" class="button button--ghost">Code</a>
+                    </div>
+                </div>
+            </article>
+        </section>
+    </main>
+    <script src="/scripts.js"></script>
+</body>
+</html>
