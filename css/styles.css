@@ -22,7 +22,7 @@ img{
 
 body{
     margin: 0;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: 'Fraunces', serif, 'Poppins', sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     transition: var(--transition);
 }
 
@@ -121,6 +121,32 @@ body{
     margin-top: 3.5rem;
 }
 
+@media screen and (max-width: 400px){
+    .main{
+        padding: 1rem;
+    }
+}
+
+@media screen and (max-width: 400px){
+    .card{
+        width: 95%;
+        margin: 0 auto;
+    }
+
+    .card,
+    .card__header{
+        padding: 1rem;
+    }
+
+    .card__body{
+        padding: 1rem 0;
+    }
+
+    .card__img-container{
+        min-width: 95%;
+    }
+}
+
 .card{
     box-shadow: -6px -6px 16px var(--light-theme-bs-one), 6px 6px 16px var(--light-theme-bs-two);
 }
@@ -134,6 +160,11 @@ body{
         grid-template-columns: repeat(3, 1fr);
         grid-template-rows: repeat(3, min-content);
     }
+
+    .card__img-container{
+        min-width: 320px;
+        border-radius: var(--border-radius-pixels);
+    }
 }
 
     .column{
@@ -144,11 +175,6 @@ body{
 
     .card{
         padding: 1rem;
-        border-radius: var(--border-radius-pixels);
-    }
-
-    .card__img-container{
-        min-width: 320px;
         border-radius: var(--border-radius-pixels);
     }
 
@@ -180,7 +206,6 @@ body{
     .card__link--item{
         text-decoration: none;
         color: var(--primary-color);
-        font-weight: 500;
         transition: var(--transition);
     }
 
